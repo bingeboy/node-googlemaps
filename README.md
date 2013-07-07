@@ -25,6 +25,10 @@ APIs implemented:
 * [Street View](http://code.google.com/apis/maps/documentation/streetview/)
 
 APIs Not implemented:
+* Map | MapOptions | MapTypeId
+* Overlays
+* Controls
+* 
 * [MaxZoomService](https://developers.google.com/maps/documentation/javascript/3.exp/reference#MaxZoomService)
 
 * [Layers](https://developers.google.com/maps/documentation/javascript/3.exp/reference#Map)
@@ -50,6 +54,8 @@ APIs Not implemented:
     * TransitLayer
 
 TODO:
+
+Install get working and make a list of all options not currently working and ad in the new features. 3.13experimenal.
 
 * [Tests for everything](http://github.com/moshen/node-googlemaps/tree/master/test/) (using [vows](http://vowsjs.org/))
 
