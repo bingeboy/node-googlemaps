@@ -24,6 +24,31 @@ APIs implemented:
 * [Static Maps](http://code.google.com/apis/maps/documentation/staticmaps/)
 * [Street View](http://code.google.com/apis/maps/documentation/streetview/)
 
+APIs Not implemented:
+* [MaxZoomService](https://developers.google.com/maps/documentation/javascript/3.exp/reference#MaxZoomService)
+
+* [Layers](https://developers.google.com/maps/documentation/javascript/3.exp/reference#Map)
+    * BicyclingLayer
+    * FusionTablesLayer
+    * FusionTablesLayerOptions
+    * FusionTablesQuery
+    * FusionTablesStyle
+    * FusionTablesHeatmap
+    * FusionTablesMarkerOptions
+    * FusionTablesPolygonOptions
+    * FusionTablesPolylineOptions
+    * FusionTablesMouseEvent
+    * FusionTablesCell
+    * KmlLayer
+    * KmlLayerOptions
+    * KmlLayerMetadata
+    * KmlLayerStatus
+    * KmlMouseEvent
+    * KmlFeatureData
+    * KmlAuthor
+    * TrafficLayer
+    * TransitLayer
+
 TODO:
 
 * [Tests for everything](http://github.com/moshen/node-googlemaps/tree/master/test/) (using [vows](http://vowsjs.org/))
