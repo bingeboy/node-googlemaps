@@ -54,6 +54,261 @@ APIs Not implemented:
     * TransitLayer
 
 TODO:
+###Map
+
+* Map
+* MapOptions
+* MapTypeId
+
+###Controls
+
+* MapTypeControlOptions
+* MapTypeControlStyle
+* OverviewMapControlOptions
+* PanControlOptions
+* RotateControlOptions
+* ScaleControlOptions
+* ScaleControlStyle
+* StreetViewControlOptions
+* ZoomControlOptions
+* ZoomControlStyle
+* ControlPosition
+
+###Overlays
+
+* Marker
+* MarkerOptions
+* Icon
+* MarkerShape
+* Symbol
+* SymbolPath
+* Animation
+* InoWindow
+* InfoWindowOptions
+* Polyline
+* PolylineOptions
+* IconSequence
+* Polygon
+* PolygonOptions
+* PolyMouseEvent
+* Rectangle
+* RectangleOptions
+* Circle
+* CircleOptions
+* StrokePosition
+* GroundOverlay
+* GroundOverlayOptions
+* OverlayView
+* MapPanes
+* MapCanvasProjection
+
+###Services
+
+* Geocoder
+* GeocoderRequest
+* GeocoderStatus
+* GeocoderResult
+* GeocoderAddressComponent
+* GeocoderGeometry
+* GeocoderLocationType
+* DirectionsRenderer
+* DirectionsRendererOptions
+* DirectionsService
+* DirectionsRequest
+* TravelMode
+* UnitSystem
+* TransitOptions
+* DirectionsWaypoint
+* DirectionsStatus
+* DirectionsResult
+* DirectionsRoute
+* DirectionsLeg
+* DirectionsStep
+* Distance
+* Duration
+* Time
+* TransitDetails
+* TransitStop
+* TransitLine
+* TransitAgency
+* TransitVehicle
+* VehicleType
+* ElevationService
+* LocationElevationRequest
+* PathElevationRequest
+* ElevationResult
+* ElevationStatus
+* MaxZoomService
+* MaxZoomResult
+* MaxZoomStatus
+* DistanceMatrixService
+* DistanceMatrixRequest
+* DistanceMatrixResponse
+* DistanceMatrixResponseRow
+* DistanceMatrixResponseElement
+* DistanceMatrixStatus
+* DistanceMatrixElementStatus
+
+###Map Types
+
+* MapType
+* MapTypeRegistry
+* Projection
+* ImageMapType
+* ImageMapTypeOptions
+* StyledMapType
+* StyledMapTypeOptions
+* MapTypeStyle
+* MapTypeStyleFeatureType
+* MapTypeStyleElementType
+* MapTypeStyler
+
+###Layers
+
+* BicyclingLayer
+* FusionTablesLayer
+* FusionTablesLayerOptions
+* FusionTablesQuery
+* FusionTablesStyle
+* FusionTablesHeatmap
+* FusionTablesMarkerOptions
+* FusionTablesPolygonOptions
+* FusionTablesPolylineOptions
+* FusionTablesMouseEvent
+* FusionTablesCell
+* KmlLayer
+* KmlLayerOptions
+* KmlLayerMetadata
+* KmlLayerStatus
+* KmlMouseEvent
+* KmlFeatureData
+* KmlAuthor
+* TrafficLayer
+* TransitLayer
+
+###Street View
+
+* StreetViewPanorama
+* StreetViewPanoramaOptions
+* StreetViewAddressControlOptions
+* StreetViewLink
+* StreetViewPov
+* StreetViewPanoramaData
+* StreetViewLocation
+* StreetViewTileData
+* StreetViewService
+* StreetViewStatus
+* StreetViewCoverageLayer
+
+###Events
+
+* MapsEventListener
+* event
+* MouseEvent
+
+###Base
+
+* LatLng
+* LatLngBounds
+* Point
+* Size
+
+###MVC
+
+* MVCObject
+* MVCArray
+
+###Geometry Library
+
+* encoding
+* spherical
+* poly
+
+###AdSense Library
+
+* AdUnit
+* AdUnitOptions
+* AdFormat
+
+###Panoramio Library
+
+* PanoramioLayer
+* PanoramioLayerOptions
+* PanoramioFeature
+* PanoramioMouseEvent
+
+###Places Library
+
+* Autocomplete
+* AutocompleteOptions
+* AutocompletePrediction
+* PredictionTerm
+* PredictionSubstring
+* AutocompleteService
+* AutocompletionRequest
+* ComponentRestrictions
+* PlaceAspectRating
+* PlaceDetailsRequest
+* PlaceGeometry
+* PlacePhoto
+* PhotoOptions
+* PlaceResult
+* PlaceReview
+* PlaceSearchPagination
+* PlaceSearchRequest
+* PlacesService
+* PlacesServiceStatus
+* QueryAutocompletePrediction
+* QueryAutocompletionRequest
+* RadarSearchRequest
+* RankBy
+* SearchBox
+* SearchBoxOptions
+* TextSearchRequest
+
+###Drawing Library
+
+* DrawingManager
+* DrawingManagerOptions
+* DrawingControlOptions
+* OverlayCompleteEvent
+* OverlayType
+
+###Weather Library
+
+* CloudLayer
+* WeatherLayer
+* WeatherLayerOptions
+* TemperatureUnit
+* WindSpeedUnit
+* LabelColor
+* WeatherMouseEvent
+* WeatherFeature
+* WeatherConditions
+* WeatherForecast
+
+###Visualization Library
+
+* MapsEngineLayer
+* MapsEngineLayerOptions
+* MapsEngineLayerProperties
+* MapsEngineMouseEvent
+* MapsEngineStatus
+* DynamicMapsEngineLayer
+* DynamicMapsEngineLayerOptions
+* DynamicMapsEngineMouseEvent
+* FeatureStyle
+* HeatmapLayer
+* HeatmapLayerOptions
+* WeightedLocation
+* DemographicsLayer
+* DemographicsLayerOptions
+* DemographicsQuery
+* DemographicsStyle
+* DemographicsPolygonOptions
+* DemographicsPropertyStyle
+
+
 
 Install get working and make a list of all options not currently working and ad in the new features. 3.13experimenal.
 
@@ -77,7 +332,7 @@ Both examples print:
 For the Static Maps API, you can pass in all the required parameters as well as markers, styles, and paths using the formats outlined below.
     
     markers = [
-    	{ 'location': '300 W Main St Lock Haven, PA' },
+        { 'location': '300 W Main St Lock Haven, PA' },
     	{ 'location': '444 W Main St Lock Haven, PA',
     		'color': 'red',
     		'label': 'A',
