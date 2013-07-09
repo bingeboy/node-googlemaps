@@ -1,12 +1,9 @@
 # Google Maps API for Node.js
 A simple way to query the Google Maps API from Node.js
 
-This has become a fairly complete api.  Criticism/Suggestions/Patches/PullReq's welcome.
+Link to google API https://developers.google.com/maps/documentation/javascript/3.exp/reference
 
 # Installation
-### Installing npm (node package manager)
-
-    curl http://npmjs.org/install.sh | sh
 
 ### Installing googlemaps
 
@@ -56,257 +53,257 @@ APIs Not implemented:
 TODO:
 ###Map
 
-* Map
-* MapOptions
-* MapTypeId
+* [Map](https://developers.google.com/maps/documentation/javascript/3.exp/reference#Map)
+* [MapOptions](https://developers.google.com/maps/documentation/javascript/3.exp/reference#MapOptions)
+* [MapTypeId](https://developers.google.com/maps/documentation/javascript/3.exp/reference#MapTypeId)
 
 ###Controls
 
-* MapTypeControlOptions
-* MapTypeControlStyle
-* OverviewMapControlOptions
-* PanControlOptions
-* RotateControlOptions
-* ScaleControlOptions
-* ScaleControlStyle
-* StreetViewControlOptions
-* ZoomControlOptions
-* ZoomControlStyle
-* ControlPosition
+* [MapTypeControlOptions](https://developers.google.com/maps/documentation/javascript/3.exp/reference#MapTypeControlOptions)
+* [MapTypeControlStyle](https://developers.google.com/maps/documentation/javascript/3.exp/reference#MapTypeControlStyle)
+* [OverviewMapControlOptions](https://developers.google.com/maps/documentation/javascript/3.exp/reference#OverviewMapControlOptions)
+* [PanControlOptions](https://developers.google.com/maps/documentation/javascript/3.exp/reference#PanControlOptions)
+* [RotateControlOptions](https://developers.google.com/maps/documentation/javascript/3.exp/reference#RotateControlOptions)
+* [ScaleControlOptions](https://developers.google.com/maps/documentation/javascript/3.exp/reference#ScaleControlOptions)
+* [ScaleControlStyle](https://developers.google.com/maps/documentation/javascript/3.exp/reference#ScaleControlStyle)
+* [StreetViewControlOptions](https://developers.google.com/maps/documentation/javascript/3.exp/reference#StreetViewControlOptions)
+* [ZoomControlOptions](https://developers.google.com/maps/documentation/javascript/3.exp/reference#ZoomControlOptions)
+* [ZoomControlStyle](https://developers.google.com/maps/documentation/javascript/3.exp/reference#ZoomControlStyle)
+* [ControlPosition](https://developers.google.com/maps/documentation/javascript/3.exp/reference#ControlPosition)
 
 ###Overlays
 
-* Marker
-* MarkerOptions
-* Icon
-* MarkerShape
-* Symbol
-* SymbolPath
-* Animation
-* InoWindow
-* InfoWindowOptions
-* Polyline
-* PolylineOptions
-* IconSequence
-* Polygon
-* PolygonOptions
-* PolyMouseEvent
-* Rectangle
-* RectangleOptions
-* Circle
-* CircleOptions
-* StrokePosition
-* GroundOverlay
-* GroundOverlayOptions
-* OverlayView
-* MapPanes
-* MapCanvasProjection
+* [Marker](https://developers.google.com/maps/documentation/javascript/3.exp/reference#Marker)
+* [MarkerOptions](https://developers.google.com/maps/documentation/javascript/3.exp/reference#MapTypeControlStyle)
+* [Icon](https://developers.google.com/maps/documentation/javascript/3.exp/reference#Icon)
+* [MarkerShape](https://developers.google.com/maps/documentation/javascript/3.exp/reference#MarkerShape)
+* [Symbol](https://developers.google.com/maps/documentation/javascript/3.exp/reference#Symbol)
+* [SymbolPath](https://developers.google.com/maps/documentation/javascript/3.exp/reference#SymbolPath)
+* [Animation](https://developers.google.com/maps/documentation/javascript/3.exp/reference#Animation)
+* [InfoWindow](https://developers.google.com/maps/documentation/javascript/3.exp/reference#InfoWindow)
+* [InfoWindowOptions](https://developers.google.com/maps/documentation/javascript/3.exp/reference#InfoWindowOptions)
+* [Polyline](https://developers.google.com/maps/documentation/javascript/3.exp/reference#Polyline)
+* [PolylineOptions](https://developers.google.com/maps/documentation/javascript/3.exp/reference#PolylineOptions)
+* [IconSequence](https://developers.google.com/maps/documentation/javascript/3.exp/reference#IconSequence)
+* [Polygon](https://developers.google.com/maps/documentation/javascript/3.exp/reference#Polygon)
+* [PolygonOptions](https://developers.google.com/maps/documentation/javascript/3.exp/reference#PolygonOptions)
+* [PolyMouseEvent](https://developers.google.com/maps/documentation/javascript/3.exp/reference#PolyMouseEvent)
+* [Rectangle](https://developers.google.com/maps/documentation/javascript/3.exp/reference#Rectangle)
+* [RectangleOptions](https://developers.google.com/maps/documentation/javascript/3.exp/reference#RectangleOptions)
+* [Circle](https://developers.google.com/maps/documentation/javascript/3.exp/reference#Circle)
+* [CircleOptions](https://developers.google.com/maps/documentation/javascript/3.exp/reference#CircleOptions)
+* [StrokePosition](https://developers.google.com/maps/documentation/javascript/3.exp/reference#StrokePosition)
+* [GroundOverlay](https://developers.google.com/maps/documentation/javascript/3.exp/reference#GroundOverlay)
+* [GroundOverlayOptions](https://developers.google.com/maps/documentation/javascript/3.exp/reference#GroundOverlayOptions)
+* [OverlayView](https://developers.google.com/maps/documentation/javascript/3.exp/reference#OverlayView)
+* [MapPanes](https://developers.google.com/maps/documentation/javascript/3.exp/reference#MapPanes)
+* [MapCanvasProjection](https://developers.google.com/maps/documentation/javascript/3.exp/reference#MapCanvasProjection)
 
 ###Services
 
-* Geocoder
-* GeocoderRequest
-* GeocoderStatus
-* GeocoderResult
-* GeocoderAddressComponent
-* GeocoderGeometry
-* GeocoderLocationType
-* DirectionsRenderer
-* DirectionsRendererOptions
-* DirectionsService
-* DirectionsRequest
-* TravelMode
-* UnitSystem
-* TransitOptions
-* DirectionsWaypoint
-* DirectionsStatus
-* DirectionsResult
-* DirectionsRoute
-* DirectionsLeg
-* DirectionsStep
-* Distance
-* Duration
-* Time
-* TransitDetails
-* TransitStop
-* TransitLine
-* TransitAgency
-* TransitVehicle
-* VehicleType
-* ElevationService
-* LocationElevationRequest
-* PathElevationRequest
-* ElevationResult
-* ElevationStatus
-* MaxZoomService
-* MaxZoomResult
-* MaxZoomStatus
-* DistanceMatrixService
-* DistanceMatrixRequest
-* DistanceMatrixResponse
-* DistanceMatrixResponseRow
-* DistanceMatrixResponseElement
-* DistanceMatrixStatus
-* DistanceMatrixElementStatus
+* [Geocoder](https://developers.google.com/maps/documentation/javascript/3.exp/reference#Geocoder)
+* [GeocoderRequest]
+* [GeocoderStatus]
+* [GeocoderResult]
+* [GeocoderAddressComponent]
+* [GeocoderGeometry]
+* [GeocoderLocationType]
+* [DirectionsRenderer]
+* [DirectionsRendererOptions]
+* [DirectionsService]
+* [DirectionsRequest]
+* [TravelMode]
+* [UnitSystem]
+* [TransitOptions]
+* [DirectionsWaypoint]
+* [DirectionsStatus]
+* [DirectionsResult]
+* [DirectionsRoute]
+* [DirectionsLeg]
+* [DirectionsStep]
+* [Distance]
+* [Duration]
+* [Time]
+* [TransitDetails]
+* [TransitStop]
+* [TransitLine]
+* [TransitAgency]
+* [TransitVehicle]
+* [VehicleType]
+* [ElevationService]
+* [LocationElevationRequest]
+* [PathElevationRequest]
+* [ElevationResult]
+* [ElevationStatus]
+* [MaxZoomService]
+* [MaxZoomResult]
+* [MaxZoomStatus]
+* [DistanceMatrixService]
+* [DistanceMatrixRequest]
+* [DistanceMatrixResponse]
+* [DistanceMatrixResponseRow]
+* [DistanceMatrixResponseElement]
+* [DistanceMatrixStatus]
+* [DistanceMatrixElementStatus]
 
 ###Map Types
 
-* MapType
-* MapTypeRegistry
-* Projection
-* ImageMapType
-* ImageMapTypeOptions
-* StyledMapType
-* StyledMapTypeOptions
-* MapTypeStyle
-* MapTypeStyleFeatureType
-* MapTypeStyleElementType
-* MapTypeStyler
+* [MapType](https://developers.google.com/maps/documentation/javascript/3.exp/reference#MapType)
+* [MapTypeRegistry]
+* [Projection]
+* [ImageMapType]
+* [ImageMapTypeOptions]
+* [StyledMapType]
+* [StyledMapTypeOptions]
+* [MapTypeStyle]
+* [MapTypeStyleFeatureType]
+* [MapTypeStyleElementType]
+* [MapTypeStyler]
 
 ###Layers
 
-* BicyclingLayer
-* FusionTablesLayer
-* FusionTablesLayerOptions
-* FusionTablesQuery
-* FusionTablesStyle
-* FusionTablesHeatmap
-* FusionTablesMarkerOptions
-* FusionTablesPolygonOptions
-* FusionTablesPolylineOptions
-* FusionTablesMouseEvent
-* FusionTablesCell
-* KmlLayer
-* KmlLayerOptions
-* KmlLayerMetadata
-* KmlLayerStatus
-* KmlMouseEvent
-* KmlFeatureData
-* KmlAuthor
-* TrafficLayer
-* TransitLayer
+* [BicyclingLayer]
+* [FusionTablesLayer]
+* [FusionTablesLayerOptions]
+* [FusionTablesQuery]
+* [FusionTablesStyle]
+* [FusionTablesHeatmap]
+* [FusionTablesMarkerOptions]
+* [FusionTablesPolygonOptions]
+* [FusionTablesPolylineOptions]
+* [FusionTablesMouseEvent]
+* [FusionTablesCell]
+* [KmlLayer]
+* [KmlLayerOptions]
+* [KmlLayerMetadata]
+* [KmlLayerStatus]
+* [KmlMouseEvent]
+* [KmlFeatureData]
+* [KmlAuthor]
+* [TrafficLayer]
+* [TransitLayer]
 
 ###Street View
 
-* StreetViewPanorama
-* StreetViewPanoramaOptions
-* StreetViewAddressControlOptions
-* StreetViewLink
-* StreetViewPov
-* StreetViewPanoramaData
-* StreetViewLocation
-* StreetViewTileData
-* StreetViewService
-* StreetViewStatus
-* StreetViewCoverageLayer
+* [StreetViewPanorama](https://developers.google.com/maps/documentation/javascript/3.exp/reference#StreetViewPanorama)
+* [StreetViewPanoramaOptions]
+* [StreetViewAddressControlOptions]
+* [StreetViewLink]
+* [StreetViewPov]
+* [StreetViewPanoramaData]
+* [StreetViewLocation]
+* [StreetViewTileData]
+* [StreetViewService]
+* [StreetViewStatus]
+* [StreetViewCoverageLayer]
 
 ###Events
 
-* MapsEventListener
-* event
-* MouseEvent
+* [MapsEventListener](https://developers.google.com/maps/documentation/javascript/3.exp/reference#MapsEventListener)
+* [event]
+* [MouseEvent]
 
 ###Base
 
-* LatLng
-* LatLngBounds
-* Point
-* Size
+* [LatLng]
+* [LatLngBounds]
+* [Point]
+* [Size]
 
 ###MVC
 
-* MVCObject
-* MVCArray
+* [MVCObject]
+* [MVCArray]
 
 ###Geometry Library
 
-* encoding
-* spherical
-* poly
+* [encoding]
+* [spherical]
+* [poly]
 
 ###AdSense Library
 
-* AdUnit
-* AdUnitOptions
-* AdFormat
+* [AdUnit]
+* [AdUnitOptions]
+* [AdFormat]
 
 ###Panoramio Library
 
-* PanoramioLayer
-* PanoramioLayerOptions
-* PanoramioFeature
-* PanoramioMouseEvent
+* [PanoramioLayer]
+* [PanoramioLayerOptions]
+* [PanoramioFeature]
+* [PanoramioMouseEvent]
 
 ###Places Library
 
-* Autocomplete
-* AutocompleteOptions
-* AutocompletePrediction
-* PredictionTerm
-* PredictionSubstring
-* AutocompleteService
-* AutocompletionRequest
-* ComponentRestrictions
-* PlaceAspectRating
-* PlaceDetailsRequest
-* PlaceGeometry
-* PlacePhoto
-* PhotoOptions
-* PlaceResult
-* PlaceReview
-* PlaceSearchPagination
-* PlaceSearchRequest
-* PlacesService
-* PlacesServiceStatus
-* QueryAutocompletePrediction
-* QueryAutocompletionRequest
-* RadarSearchRequest
-* RankBy
-* SearchBox
-* SearchBoxOptions
-* TextSearchRequest
+* [Autocomplete]
+* [AutocompleteOptions]
+* [AutocompletePrediction]
+* [PredictionTerm]
+* [PredictionSubstring]
+* [AutocompleteService]
+* [AutocompletionRequest]
+* [ComponentRestrictions]
+* [PlaceAspectRating]
+* [PlaceDetailsRequest]
+* [PlaceGeometry]
+* [PlacePhoto](https://developers.google.com/maps/documentation/javascript/3.exp/reference#PlacePhoto)
+* [PhotoOptions]
+* [PlaceResult]
+* [PlaceReview]
+* [PlaceSearchPagination]
+* [PlaceSearchRequest]
+* [PlacesService]
+* [PlacesServiceStatus]
+* [QueryAutocompletePrediction]
+* [QueryAutocompletionRequest]
+* [RadarSearchRequest]
+* [RankBy]
+* [SearchBox]
+* [SearchBoxOptions]
+* [TextSearchRequest]
 
 ###Drawing Library
 
-* DrawingManager
-* DrawingManagerOptions
-* DrawingControlOptions
-* OverlayCompleteEvent
-* OverlayType
+* [DrawingManager]
+* [DrawingManagerOptions]
+* [DrawingControlOptions]
+* [OverlayCompleteEvent]
+* [OverlayType]
 
 ###Weather Library
 
-* CloudLayer
-* WeatherLayer
-* WeatherLayerOptions
-* TemperatureUnit
-* WindSpeedUnit
-* LabelColor
-* WeatherMouseEvent
-* WeatherFeature
-* WeatherConditions
-* WeatherForecast
+* [CloudLayer](https://developers.google.com/maps/documentation/javascript/3.exp/reference#CloudLayer)
+* [WeatherLayer]
+* [WeatherLayerOptions]
+* [TemperatureUnit]
+* [WindSpeedUnit]
+* [LabelColor]
+* [WeatherMouseEvent]
+* [WeatherFeature]
+* [WeatherConditions]
+* [WeatherForecast]
 
 ###Visualization Library
 
-* MapsEngineLayer
-* MapsEngineLayerOptions
-* MapsEngineLayerProperties
-* MapsEngineMouseEvent
-* MapsEngineStatus
-* DynamicMapsEngineLayer
-* DynamicMapsEngineLayerOptions
-* DynamicMapsEngineMouseEvent
-* FeatureStyle
-* HeatmapLayer
-* HeatmapLayerOptions
-* WeightedLocation
-* DemographicsLayer
-* DemographicsLayerOptions
-* DemographicsQuery
-* DemographicsStyle
-* DemographicsPolygonOptions
-* DemographicsPropertyStyle
+* [MapsEngineLayer](https://developers.google.com/maps/documentation/javascript/3.exp/reference#MapsEngineLayer)
+* [MapsEngineLayerOptions]
+* [MapsEngineLayerProperties]
+* [MapsEngineMouseEvent]
+* [MapsEngineStatus]
+* [DynamicMapsEngineLayer]
+* [DynamicMapsEngineLayerOptions]
+* [DynamicMapsEngineMouseEvent]
+* [FeatureStyle]
+* [HeatmapLayer]
+* [HeatmapLayerOptions]
+* [WeightedLocation]
+* [DemographicsLayer]
+* [DemographicsLayerOptions]
+* [DemographicsQuery]
+* [DemographicsStyle]
+* [DemographicsPolygonOptions]
+* [DemographicsPropertyStyle]
 
 
 
