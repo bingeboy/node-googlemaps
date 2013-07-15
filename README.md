@@ -23,13 +23,16 @@ APIs implemented:
 
 APIs Not implemented:
 * Map | MapOptions | MapTypeId
+
+[Map Options](https://developers.google.com/maps/documentation/javascript/3.exp/reference#MapOptions)
+
 * Overlays
 * Controls
 * 
 * [MaxZoomService](https://developers.google.com/maps/documentation/javascript/3.exp/reference#MaxZoomService)
 
 * [Layers](https://developers.google.com/maps/documentation/javascript/3.exp/reference#Map)
-    * BicyclingLayer
+    * [BicyclingLayer](https://developers.google.com/maps/documentation/javascript/3.exp/reference#BicyclingLayer)
     * FusionTablesLayer
     * FusionTablesLayerOptions
     * FusionTablesQuery
